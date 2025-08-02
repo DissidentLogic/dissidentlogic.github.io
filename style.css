@@ -1,0 +1,111 @@
+/* Reset & base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container to limit width */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo-container {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+.logo {
+  width: 800px;
+  height: auto;
+  align: center;
+}
+
+/* Headers */
+.main-header, .section-header {
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  color: rgb(100,100,100);
+  font-size: 20px;
+}
+
+/* Two Columns Layout */
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.column {
+  flex: 1 1 300px;
+  margin: 1rem;
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  color: rgb(100,100,100);
+}
+
+.leadership {
+  width: 340px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.column-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Grey Background Paragraph */
+.grey-box {
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  color: rgb(100,100,100);
+}
+
+/* Featured Content Box */
+.content-box {
+  background: #fafafa;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-family: Arial,Helvetica,sans-serif;
+  color: rgb(100,100,100);
+}
+
+.box-image {
+  width: 140px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Social Media Links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.social-links li {
+  margin: 0.5rem 0;
+}
