@@ -63,8 +63,8 @@ a:hover {
 }
 
 .leadership {
-  max-width: 50%;
-  width: 50%;
+  width: 340px;
+  max-width: 70%;
   box-sizing: border-box;
   margin: 1rem auto;
   text-align: center;
